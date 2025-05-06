@@ -1,182 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Table</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/table.css">
-</head>
-<body>
-    <table class="admin-table">
-        <tr class="row">
-            <th class="business-listing">Business Listing</th>
-            <th class="start">Start Date</th>
-            <th class="vendor-id">Vendor ID</th>
-            <th class="status">Status</th>
-            <th class="region">Region</th>
-            <th class="posts">Posts</th>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Krusty Krab Ltd.</td>
-            <td class="start">8/21/15</td>
-            <td class="vendor-id">765594</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Canada (Central)</td>
-            <td class="posts">70</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">NetRangler Inc.</td>
-            <td class="start">5/7/16</td>
-            <td class="vendor-id">558612</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">US East (Ohio)</td>
-            <td class="posts">41</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">ChumHum Ltd.</td>
-            <td class="start">5/19/12</td>
-            <td class="vendor-id">665137</td>
-            <td class="status"><span class="status-styles status-inactive">Not Found</span></td>
-            <td class="region">EU (Ireland)</td>
-            <td class="posts">46</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Rich Industries Co.</td>
-            <td class="start">9/4/12</td>
-            <td class="vendor-id">520015</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">EU (London)</td>
-            <td class="posts">15</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Wayne Industries Co.</td>
-            <td class="start">6/19/14</td>
-            <td class="vendor-id">204349</td>
-            <td class="status"><span class="status-styles status-inactive">Not Found</span></td>
-            <td class="region">EU (Stockholm)</td>
-            <td class="posts">33</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Bubba Gump Co.</td>
-            <td class="start">11/7/16</td>
-            <td class="vendor-id">487441</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Singapore)</td>
-            <td class="posts">79</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Monsters Inc.</td>
-            <td class="start">3/4/16</td>
-            <td class="vendor-id">788187</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">EU (London)</td>
-            <td class="posts">17</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">InGen Ltd.</td>
-            <td class="start">8/2/19</td>
-            <td class="vendor-id">809905</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">US West (N. California)</td>
-            <td class="posts">39</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Kwik-E-Mart Ltd.</td>
-            <td class="start">8/15/17</td>
-            <td class="vendor-id">172922</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">EU (Paris)</td>
-            <td class="posts">74</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">U.S. Robotics Inc.</td>
-            <td class="start">6/21/19</td>
-            <td class="vendor-id">295340</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Tokyo)</td>
-            <td class="posts">32</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Gryzzi Co.</td>
-            <td class="start">9/23/16</td>
-            <td class="vendor-id">036023</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Singapore)</td>
-            <td class="posts">53</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Wonka Industries GmbH</td>
-            <td class="start">5/30/14</td>
-            <td class="vendor-id">448432</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">South America</td>
-            <td class="posts">25</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Buy'N'Large Ltd.</td>
-            <td class="start">1/31/14</td>
-            <td class="vendor-id">935910</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Mumbai)</td>
-            <td class="posts">29</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Capsule Inc.</td>
-            <td class="start">2/11/12</td>
-            <td class="vendor-id">125629</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Singapore)</td>
-            <td class="posts">43</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Soylent Co.</td>
-            <td class="start">10/28/12</td>
-            <td class="vendor-id">785681</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">EU (Frankfurt)</td>
-            <td class="posts">51</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Pizza Planet Inc.</td>
-            <td class="start">7/27/13</td>
-            <td class="vendor-id">550819</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Seoul)</td>
-            <td class="posts">72</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Umbrella Corp.</td>
-            <td class="start">8/16/13</td>
-            <td class="vendor-id">482650</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">Asia Pacific (Sydney)</td>
-            <td class="posts">56</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Sirius Cybernetics Co.</td>
-            <td class="start">12/10/13</td>
-            <td class="vendor-id">449003</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">US East (N. Virginia)</td>
-            <td class="posts">80</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Madrigal Electromotive...</td>
-            <td class="start">9/18/16</td>
-            <td class="vendor-id">247562</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">EU (Paris)</td>
-            <td class="posts">42</td>
-        </tr>
-        <tr class="row">
-            <td class="business-listing">Bluth Company Inc.</td>
-            <td class="start">1/15/12</td>
-            <td class="vendor-id">977094</td>
-            <td class="status"><span class="status-styles status-active">Active</span></td>
-            <td class="region">US West (Oregon)</td>
-            <td class="posts">52</td>
-        </tr>
-    </table>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Table</title>
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/table.css" />
+    </head>
+    <body>
+        <table class="admin-table">
+            <thead>
+                <tr class="row">
+                    <th class="business-listing">Business Listing</th>
+                    <th class="start">Start Date</th>
+                    <th class="vendor-id">Vendor ID</th>
+                    <th class="status">Status</th>
+                    <th class="region">Region</th>
+                    <th class="posts">Posts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row">
+                    <td class="business-listing">Krusty Krab Ltd.</td>
+                    <td class="start">8/21/15</td>
+                    <td class="vendor-id">765594</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Canada (Central)</td>
+                    <td class="posts">70</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">NetRangler Inc.</td>
+                    <td class="start">5/7/16</td>
+                    <td class="vendor-id">558612</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">US East (Ohio)</td>
+                    <td class="posts">41</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">ChumHum Ltd.</td>
+                    <td class="start">5/19/12</td>
+                    <td class="vendor-id">665137</td>
+                    <td class="status">
+                        <span class="status-styles status-inactive"
+                            >Not Found</span
+                        >
+                    </td>
+                    <td class="region">EU (Ireland)</td>
+                    <td class="posts">46</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Rich Industries Co.</td>
+                    <td class="start">9/4/12</td>
+                    <td class="vendor-id">520015</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">EU (London)</td>
+                    <td class="posts">15</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Wayne Industries Co.</td>
+                    <td class="start">6/19/14</td>
+                    <td class="vendor-id">204349</td>
+                    <td class="status">
+                        <span class="status-styles status-inactive"
+                            >Not Found</span
+                        >
+                    </td>
+                    <td class="region">EU (Stockholm)</td>
+                    <td class="posts">33</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Bubba Gump Co.</td>
+                    <td class="start">11/7/16</td>
+                    <td class="vendor-id">487441</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Singapore)</td>
+                    <td class="posts">79</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Monsters Inc.</td>
+                    <td class="start">3/4/16</td>
+                    <td class="vendor-id">788187</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">EU (London)</td>
+                    <td class="posts">17</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">InGen Ltd.</td>
+                    <td class="start">8/2/19</td>
+                    <td class="vendor-id">809905</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">US West (N. California)</td>
+                    <td class="posts">39</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Kwik-E-Mart Ltd.</td>
+                    <td class="start">8/15/17</td>
+                    <td class="vendor-id">172922</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">EU (Paris)</td>
+                    <td class="posts">74</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">U.S. Robotics Inc.</td>
+                    <td class="start">6/21/19</td>
+                    <td class="vendor-id">295340</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Tokyo)</td>
+                    <td class="posts">32</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Gryzzi Co.</td>
+                    <td class="start">9/23/16</td>
+                    <td class="vendor-id">036023</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Singapore)</td>
+                    <td class="posts">53</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Wonka Industries GmbH</td>
+                    <td class="start">5/30/14</td>
+                    <td class="vendor-id">448432</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">South America</td>
+                    <td class="posts">25</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Buy'N'Large Ltd.</td>
+                    <td class="start">1/31/14</td>
+                    <td class="vendor-id">935910</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Mumbai)</td>
+                    <td class="posts">29</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Capsule Inc.</td>
+                    <td class="start">2/11/12</td>
+                    <td class="vendor-id">125629</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Singapore)</td>
+                    <td class="posts">43</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Soylent Co.</td>
+                    <td class="start">10/28/12</td>
+                    <td class="vendor-id">785681</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">EU (Frankfurt)</td>
+                    <td class="posts">51</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Pizza Planet Inc.</td>
+                    <td class="start">7/27/13</td>
+                    <td class="vendor-id">550819</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Seoul)</td>
+                    <td class="posts">72</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Umbrella Corp.</td>
+                    <td class="start">8/16/13</td>
+                    <td class="vendor-id">482650</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">Asia Pacific (Sydney)</td>
+                    <td class="posts">56</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Sirius Cybernetics Co.</td>
+                    <td class="start">12/10/13</td>
+                    <td class="vendor-id">449003</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">US East (N. Virginia)</td>
+                    <td class="posts">80</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Madrigal Electromotive...</td>
+                    <td class="start">9/18/16</td>
+                    <td class="vendor-id">247562</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">EU (Paris)</td>
+                    <td class="posts">42</td>
+                </tr>
+                <tr class="row">
+                    <td class="business-listing">Bluth Company Inc.</td>
+                    <td class="start">1/15/12</td>
+                    <td class="vendor-id">977094</td>
+                    <td class="status">
+                        <span class="status-styles status-active">Active</span>
+                    </td>
+                    <td class="region">US West (Oregon)</td>
+                    <td class="posts">52</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>

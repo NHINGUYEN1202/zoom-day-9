@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Selectors</title>
+        <style>
+            .css-selectors-wrapper {
+                max-width: 1000px;
+                margin: auto;
+            }
+
+            .css-selectors-wrapper .heading {
+                font-size: 3rem;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .css-selectors-wrapper .img {
+                width: 100%;
+            }
+
+            .css-selectors-wrapper .img-container {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .css-selectors-wrapper .img-caption {
+                text-align: center;
+                font-style: italic;
+                font-size: 1.8rem;
+                margin: 24px 0 36px;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="css-selectors-wrapper">
+            <h1 class="heading">CSS Selectors Game Result</h1>
+            <figure class="img-container">
+                <img
+                    class="img"
+                    src="../img/img-css-selectors.png"
+                    alt="CSS Selectors Cheatsheet Game"
+                />
+                <figcaption class="img-caption">
+                    CSS Selectors Cheatsheet Game
+                </figcaption>
+            </figure>
+            <figure class="img-container">
+                <img
+                    class="img"
+                    src="../img/img-css-diner.png"
+                    alt="CSS Diner Game"
+                />
+                <figcaption class="img-caption">CSS Diner Game</figcaption>
+            </figure>
+            <figure class="img-container">
+                <img
+                    class="img"
+                    src="../img/img-css-scoops.png"
+                    alt="CSS Scoops Game"
+                />
+                <figcaption class="img-caption">CSS Scoops Game</figcaption>
+            </figure>
+        </main>
+    </body>
+</html>
